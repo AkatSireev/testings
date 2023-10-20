@@ -1,2 +1,3 @@
-﻿  testing.cpp
-  testing.vcxproj -> C:\Users\Ak_Sireev\source\repos\testing\Debug\testing.exe
+﻿  one.cpp
+testing.obj : error LNK2005: _main уже определен в one.obj
+C:\Users\Ak_Sireev\source\repos\testing\Debug\testing.exe : fatal error LNK1169: обнаружен многократно определенный символ - один или более
