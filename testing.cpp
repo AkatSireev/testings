@@ -1,12 +1,16 @@
 ﻿#include <iostream>
-#include <cmath>
-
+using namespace std;
 int main() {
-    double number = 1.1;
-    double roundedNumber = round(number); // Округляем число
-
-    std::cout << "Исходное число: " << number << std::endl;
-    std::cout << "Округленное число: " << roundedNumber << std::endl;
-
-    return 0;
+	setlocale(LC_ALL, "Russian");
+	int n, k1;
+	float x, y;
+	cout << "введите количество людей:…";
+	cin >> n;
+	cout << "рейтинг фильма на данный момент:";
+	cin >> x;
+	cout << "желаемый рейтинг: ";
+	cin >> y;
+	k1 = (n * (y - x)) / (1 - y);
+	cout << "необходимо поставить "<< k1 << " единиц";
+	return 0;
 }
